@@ -1,0 +1,66 @@
+.active{
+  border-bottom: 2px solid orange;
+  border-radius: 5px;
+}
+nav{
+  margin-top: -19px;
+  background-color: #efefef;
+  overflow: hidden;
+  box-shadow: 1px 1px 1px 1px #efefef;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+}
+nav a{
+    float: right;
+    color: rgb(53, 53, 53);
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 16px;
+}
+nav a:hover{
+  border-bottom: 2px solid orange;
+  border-radius: 5px;
+}
+.icon{
+  display: none;
+}
+@media screen and (max-width:579px) {
+  nav a:not(:first-child){
+    display:none;
+  }
+  nav{
+      position: static;
+  }
+  nav a.icon{
+    display: block;
+    float: left;
+  }
+  nav.responsive{
+    position: relative;
+  }
+  nav.responsive a.icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+   nav.responsive a{
+    float: none;
+    display: block;
+    text-align: right;
+  }
+}
+/* <nav class="nav" id="mynav">
+<div class="container">
+    <div class="row">
+        <div class="es-col-12 col-s-12 col-md-12 col-l-12 col-xl-12">
+            <a href="" > <i class="fas fa-graduation-cap"></i></a>
+            <a href="" class="active">صفحه اصلی</a>
+            <a href="">دوره های آموزشی</a>
+            <a href="">درباره ما</a>
+            <a href="">مطالب</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunc();"><i class="fas fa-bars" ></i></a>
+        </div>
+    </div>
+</div>
+</nav> */

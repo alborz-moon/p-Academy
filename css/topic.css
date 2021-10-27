@@ -1,0 +1,222 @@
+.topic-wrapper{
+    background-image: url(../img/vector-DEC-2020-52_generated2.jpg);
+    width: 100%;
+    height: 900px;
+    background-repeat:repeat;
+    background-size: contain;
+    background-position: center;
+    color: #a7a7a7;
+  }
+  .orange-border{
+    color: rgb(51, 51, 51);
+    border: 0px solid rgb(204, 133, 0);
+    border-radius: 5px;
+    padding: 2px 10px;
+    background-color: rgb(255, 235, 198);
+  }
+  .topic .card-header{
+    overflow: hidden;
+  }
+  .topic:hover img{
+    transform:scale(1.11) rotate(5deg);
+    filter: grayscale(0.5);
+  }
+  .topic .card-header img{
+    transition: 0.5s ease-in;
+  }
+  .topic .card-body{
+    margin: 15px 0px 15px 0px;
+  }
+  .post-date{
+    top: -57px;
+    color: #efefef;
+  }
+  .post-date div{
+    padding: 5px;
+  }
+  .post-date div:first-child{
+    background-color: orange;
+    border-radius: 5px 5px 0px 0px;
+  }
+  .post-date div:last-child{
+    background-color: rgb(165, 165, 165);
+    border-radius: 0px 0px 5px 5px  ;
+  }
+  .topic .card-footer ol{
+    border-top: solid 1px rgb(218, 218, 218);
+  }
+  .topic .card-footer ol li{
+    display: inline-block;
+    padding: 7px; 
+  }
+  .topic .card-footer ol li span{
+    padding: 3px;
+  }
+  .topic .card-footer ol li span i:hover{
+    color: rgb(255, 116, 116);
+  }
+  @media screen and (min-width:768px) and (max-width:839px){
+    .topic a span{
+      display:none
+    }
+  }
+  .l-matlab span{
+    position: relative;
+    font-size: 20px; 
+    color:rgb(53, 52, 52);
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  .l-matlab h5 span::before{
+    content: '';
+    width: 40px;
+    height: 3px;
+    position: absolute;
+    background-color: orange;  
+    top: 16px;
+    left: 98px;
+  }
+  .l-matlab h5 span::after{
+    content: '';
+    width: 40px;
+    height: 3px;
+    position: absolute;
+    background-color: orange;
+    top: 16px;
+    left: -48px;
+  }
+  @media screen and (min-width:1200px){
+    .topic-wrapper{
+      height: 507px;
+    }
+  }
+  @media screen and (min-width:885px) and (max-width:1199px){
+    .topic-wrapper{
+      height: 1016px;
+    }
+  }
+  @media screen  and (min-width:637px) and (max-width:768px){
+    .topic-wrapper{
+      height: 1006px;
+    }
+  }
+  @media screen  and (min-width:555px) and (max-width:579px){
+    .topic-wrapper{
+      height: 2296px;
+    }
+  }
+  @media screen  and (min-width:530px) and (max-width:555px) {
+    .topic-wrapper{
+      height: 2220px;
+    }
+  }
+  @media screen and (min-width:500px) and (max-width:530px) {
+    .topic-wrapper{
+      height: 2135px;
+    }
+  }
+  /* <!-- topic -->
+  <section>
+      <div class="container-fluid topic-wrapper">
+          <div class="l-matlab text-center p-10">
+              <h5>
+                  <span>آخرین مطالب</span>
+              </h5>
+          </div>
+          <div class="row">
+              <div class="container">
+                  <div class="row mt-0">
+                      <div class="col-es-12 col-s-6 col-md-4 col-l-4 col-xl-3 topic mt-20">
+                          <div class="card">
+                              <div class="card-header">
+                                  <img class="img-responsive" src="./img/course1.jpg" alt="">
+                                  <div class="card-body text-center p-20 relative"> 
+                                      <div class="post-date absolute">
+                                          <div>16</div>
+                                          <div>تیر</div>
+                                      </div>
+                                      <a class="orange-border " href="">جلسه اول دوره <span>متخصص</span> طراحی وب</a>
+                                      <p> در این جلسه به آمار طراحی می پردازیم برای ادامه توضیحات لینک را بزنید</p>
+                                  </div>
+                                  <div class="card-footer text-center">
+                                      <ol class="">
+                                          <li>20<span><i class="far fa-comment-alt"></i></span></li>
+                                          <li>150<span><i class="far fa-heart"></i></span></li>
+                                          <li>123<span><i class="fas fa-users"></i></span></li>
+                                      </ol>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-es-12 col-s-6 col-md-4 col-l-4 col-xl-3 topic mt-20">
+                          <div class="card">
+                              <div class="card-header">
+                                  <img class="img-responsive" src="./img/course1.jpg" alt="">
+                                  <div class="card-body text-center p-20 relative"> 
+                                      <div class="post-date absolute">
+                                          <div>16</div>
+                                          <div>تیر</div>
+                                      </div>
+                                      <a class="orange-border " href="">جلسه اول دوره <span>متخصص</span> طراحی وب</a>
+                                      <p> در این جلسه به آمار طراحی می پردازیم برای ادامه توضیحات لینک را بزنید</p>
+                                  </div>
+                                  <div class="card-footer text-center">
+                                      <ol class="">
+                                          <li>نظرات<span><i class="far fa-comment-alt"></i></span></li>
+                                          <li>لایک<span><i class="far fa-heart"></i></span></li>
+                                          <li>کاربران<span><i class="fas fa-users"></i></span></li>
+                                      </ol>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-es-12 col-s-6 col-md-4 col-l-4 col-xl-3 topic mt-20">
+                          <div class="card">
+                              <div class="card-header">
+                                  <img class="img-responsive" src="./img/course1.jpg" alt="">
+                                  <div class="card-body text-center p-20 relative"> 
+                                      <div class="post-date absolute">
+                                          <div>16</div>
+                                          <div>تیر</div>
+                                      </div>
+                                      <a class="orange-border " href="">جلسه اول دوره <span>متخصص</span> طراحی وب</a>
+                                      <p> در این جلسه به آمار طراحی می پردازیم برای ادامه توضیحات لینک را بزنید</p>
+                                  </div>
+                                  <div class="card-footer text-center">
+                                      <ol class="">
+                                          <li>نظرات<span><i class="far fa-comment-alt"></i></span></li>
+                                          <li>لایک<span><i class="far fa-heart"></i></span></li>
+                                          <li>کاربران<span><i class="fas fa-users"></i></span></li>
+                                      </ol>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-es-12 col-s-6 col-md-4 col-l-4 col-xl-3 topic mt-20">
+                          <div class="card">
+                              <div class="card-header">
+                                  <img class="img-responsive" src="./img/course1.jpg" alt="">
+                                  <div class="card-body text-center p-20 relative"> 
+                                      <div class="post-date absolute">
+                                          <div>16</div>
+                                          <div>تیر</div>
+                                      </div>
+                                      <a class="orange-border " href="">جلسه اول دوره <span>متخصص</span> طراحی وب</a>
+                                      <p> در این جلسه به آمار طراحی می پردازیم برای ادامه توضیحات لینک را بزنید</p>
+                                  </div>
+                                  <div class="card-footer text-center">
+                                      <ol class="">
+                                          <li>نظرات<span><i class="far fa-comment-alt"></i></span></li>
+                                          <li>لایک<span><i class="far fa-heart"></i></span></li>
+                                          <li>کاربران<span><i class="fas fa-users"></i></span></li>
+                                      </ol>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section> */

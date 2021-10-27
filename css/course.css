@@ -1,0 +1,230 @@
+.course-title span{
+    position: relative;
+    font-size: 18px; 
+  }
+  .course-title h5 span::before{
+    content: '';
+    width: 40px;
+    height: 3px;
+    position: absolute;
+    background-color: orange;  
+    top: 16px;
+    left: 115px;
+  }
+  .course-title h5 span::after{
+    content: '';
+    width: 40px;
+    height: 3px;
+    position: absolute;
+    background-color: orange;
+    top: 16px;
+    left: -47px;
+  }
+  .card-body img{
+    width: 32px;
+    height: 32px;
+    filter: brightness(0.5);
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  .course-title2{
+    top: 0;
+    right: 60px;
+  }
+  .course-title2 a{
+    vertical-align: -3px;
+  }
+  .course-title2 p{
+    font-size: 14px;
+    color: gray;
+  }
+  .course-title2 {
+    top: 0px;
+    right: 60px;
+  }
+  .card{
+    box-shadow: 1px 1px 1px 1px #efefef; 
+    padding-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ffffff;
+  }
+  .card-overlay{
+    background-color: rgba(43, 43, 43, 0.301);
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease-in;
+    font-size: 16px;
+  }
+  .card-overlay:hover{
+    background-color: rgba(43, 43, 43, 0.5);
+  }
+  .card-overlay p{
+    color:rgba(255,255,255,1);
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }  
+  @media screen and (min-width:767px) and (max-width:1060px) {
+    .card-overlay{
+      font-size: 14px;
+    }
+  }
+  .container-course{
+    width: 100%;
+    /* background-image: url(../img/01.jpg);
+    background-attachment: fixed; */
+    background-color: rgba(255,255,255,0.3);
+  }
+  @media screen and (min-width:580px) and (max-width:712px) {
+    .card-overlay{
+      font-size: 14px;
+    }
+  }
+  /* <section class="container-course">
+  <div class="row">
+      <div class="course-title text-center p-20">
+          <h5>
+              <span>دوره های آموزشی</span>
+          </h5>    
+      </div>
+  </div>
+  <div class="col-es-12 col-s-6 col-md-4 col-l-4 col-xl-3">
+      <div class="card mt-20">
+          <div class="card-header relative">
+              <div class="card-overlay absolute">
+                  <p class="absolute">دوره متخصص طراحی وب</p>
+              </div>
+              <img class="img-responsive display-block" src="./img/course1.jpg" alt="">
+          </div>
+          <div class="card-body relative">
+              <img src="./img/2x/outline_sticky_note_2_black_24dp.png" alt="">
+              <span class="course-title2 absolute">
+                  <a href="">دوره طراحی وب</a>
+                  <p>دوره ی تخصصی طراحی وب</p>
+              </span>
+          </div>
+      </div>
+  </div>
+  <div class="col-es-12 col-s-6 col-md-4 col-l-4 col-xl-3">
+      <div class="card mt-20">
+          <div class="card-header relative">
+              <div class="card-overlay absolute">
+                  <p class="absolute">دوره برنامه وب</p>
+              </div>
+              <img class="img-responsive display-block" src="./img/course3-1.jpg" alt="">
+          </div>
+          <div class="card-body relative">
+              <img src="./img/2x/outline_sticky_note_2_black_24dp.png" alt="">
+              <span class="course-title2 absolute">
+                  <a href="">دوره برنامه وب</a>
+                  <p>دوره ی تخصصی دوره برنامه وب</p>
+              </span>
+          </div>
+      </div>
+  </div>
+  <div class="col-es-12 col-s-6 col-md-4 col-l-4 col-xl-3">
+      <div class="card mt-20">
+          <div class="card-header relative">
+              <div class="card-overlay absolute">
+                  <p class="absolute">دوره برنامه وب</p>
+              </div>
+              <img class="img-responsive display-block" src="./img/course3-1.jpg" alt="">
+          </div>
+          <div class="card-body relative">
+              <img src="./img/2x/outline_sticky_note_2_black_24dp.png" alt="">
+              <span class="course-title2 absolute">
+                  <a href="">دوره برنامه وب</a>
+                  <p>دوره ی تخصصی دوره برنامه وب</p>
+              </span>
+          </div>
+      </div>
+  </div>
+  <div class="col-es-12 col-s-6 col-md-4 col-l-4 col-xl-3">
+      <div class="card mt-20">
+          <div class="card-header relative">
+              <div class="card-overlay absolute">
+                  <p class="absolute">دوره متخصص طراحی وب</p>
+              </div>
+              <img class="img-responsive display-block" src="./img/course1.jpg" alt="">
+          </div>
+          <div class="card-body relative">
+              <img src="./img/2x/outline_sticky_note_2_black_24dp.png" alt="">
+              <span class="course-title2 absolute">
+                  <a href="">دوره طراحی وب</a>
+                  <p>دوره ی تخصصی طراحی وب</p>
+              </span>
+          </div>
+      </div>
+  </div>
+  <div class="col-es-12 col-s-6 col-md-4 col-l-4 col-xl-3">
+      <div class="card mt-20">
+          <div class="card-header relative">
+              <div class="card-overlay absolute">
+                  <p class="absolute">دوره متخصص طراحی وب</p>
+              </div>
+              <img class="img-responsive display-block" src="./img/course1.jpg" alt="">
+          </div>
+          <div class="card-body relative">
+              <img src="./img/2x/outline_sticky_note_2_black_24dp.png" alt="">
+              <span class="course-title2 absolute">
+                  <a href="">دوره طراحی وب</a>
+                  <p>دوره ی تخصصی طراحی وب</p>
+              </span>
+          </div>
+      </div>
+  </div>
+  <div class="col-es-12 col-s-6 col-md-4 col-l-4 col-xl-3">
+      <div class="card mt-20">
+          <div class="card-header relative">
+              <div class="card-overlay absolute">
+                  <p class="absolute">دوره برنامه نویسی</p>
+              </div>
+              <img class="img-responsive display-block" src="./img/course2-1.jpg" alt="">
+          </div>
+          <div class="card-body relative">
+              <img src="./img/2x/outline_sticky_note_2_black_24dp.png" alt="">
+              <span class="course-title2 absolute">
+                  <a href="">دوره برنامه نویسی</a>
+                  <p>دوره تخصصی برنامه نویسی</p>
+              </span>
+          </div>
+      </div>
+  </div>
+  <div class="col-es-12 col-s-6 col-md-4 col-l-4 col-xl-3">
+      <div class="card mt-20">
+          <div class="card-header relative">
+              <div class="card-overlay absolute">
+                  <p class="absolute">دوره متخصص طراحی وب</p>
+              </div>
+              <img class="img-responsive display-block" src="./img/course1.jpg" alt="">
+          </div>
+          <div class="card-body relative">
+              <img src="./img/2x/outline_sticky_note_2_black_24dp.png" alt="">
+              <span class="course-title2 absolute">
+                  <a href="">دوره طراحی وب</a>
+                  <p>دوره ی تخصصی طراحی وب</p>
+              </span>
+          </div>
+      </div>
+  </div>
+  <div class="col-es-12 col-s-6 col-md-4 col-l-4 col-xl-3">
+      <div class="card mt-20">
+          <div class="card-header relative">
+              <div class="card-overlay absolute">
+                  <p class="absolute">دوره متخصص طراحی وب</p>
+              </div>
+              <img class="img-responsive display-block" src="./img/course1.jpg" alt="">
+          </div>
+          <div class="card-body relative">
+              <img src="./img/2x/outline_sticky_note_2_black_24dp.png" alt="">
+              <span class="course-title2 absolute">
+                  <a href="">دوره طراحی وب</a>
+                  <p>دوره ی تخصصی طراحی وب</p>
+              </span>
+          </div>
+      </div>
+  </div>
+</section>
+   */
+  

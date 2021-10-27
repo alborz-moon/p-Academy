@@ -1,0 +1,103 @@
+.img-header{
+    min-height: 85vh;
+  }
+  .overlay{
+    width: 100%;
+    min-height: 85vh;
+    background-color: rgba(0, 0, 0, 0.363);
+  }
+  .header-title{
+    margin: 190px;
+    color: aliceblue;
+    max-width: 510px;
+    overflow: auto;
+    text-justify:auto;
+    text-align: right;
+    text-indent: 40px;
+  
+  }
+  .header-title a{
+    background-color: orange;
+    padding: 5px 10px;
+    border: 3px;
+    color:aliceblue;
+    float: left;
+    margin-left:20px
+  }
+  @media screen and (max-width: 900px) {
+    .header-title{
+      width: 96%;
+      margin: 0px 0px;
+      padding: 20px;
+      background-color: rgba(240, 248, 255, 0.521);
+      color: black;
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform:translate(-50%,-50%);
+      border-radius: 5px;
+      font-size: 14px;
+    }
+    .overlay,.img-header{
+      min-height: 97.18%;
+    }
+    .header-title h1{
+      font-size:18px;
+      margin-bottom: 20px;
+    }
+    .header-title h3{
+      font-size: 14px;
+    }
+    .header-title a{
+      font-size: 12px;
+      margin-top: 12px;
+    }
+  }
+  @media screen and (min-width:900.5px) and (max-width: 1363px) {
+    .header-title{
+      width: 96%;
+      margin: 0px 0px;
+      padding: 20px;
+      background-color: rgba(240, 248, 255, 0.521);
+      color: black;
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform:translate(-50%,-50%);
+      border-radius: 5px;
+      font-size: 14px;
+    }
+    .overlay,.img-header{
+      min-height: 98.18%;
+    }
+    .header-title h1{
+      font-size:18px;
+      margin-bottom: 20px;
+    }
+    .header-title h3{
+      font-size: 14px;
+    }
+    .header-title a{
+      font-size: 12px;
+      margin-top: 12px;
+    }
+  }
+  /* <!-- header-img -->
+  <header class="container-fluid">
+      <div class="row">
+          <div class="col-es-12 col-s-12 col-md-12 col-l-12 col-xl-12 p-0">
+              <figure class="relative">
+                  <div class="overlay absolute">
+                      <div class="header-title">
+                          <h1 class="mb-20">لورم ساز </h1>
+                          <h3 class="">طراحان سایت هنگام طراحی قالب سایت محتوای اصلی صفحات آماده نیست. در نتیجه طرح کلی دید درستی به کار فرما نمیدهد. اگر طراح بخواهد دنبال متن های مرتبط بگردد تمرکزش از روی کار اصلی برداشته میشود و اینکار زمان بر خواهد بود. </h3>
+                          <a href=""> بیشتر بدانید...</a>
+                      </div>
+                  </div>
+                  <img class="img-responsive img-header" 
+                  src="./img/09.jpg" 
+                  alt="since create web Design">
+              </figure>
+          </div>        
+      </div>
+  </header> */

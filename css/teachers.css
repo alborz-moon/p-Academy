@@ -1,0 +1,46 @@
+.teacher-wrapper img{
+    background-image: url("../img/vector-seamless-squiggles-and-swirls-pattern.jpg");
+  }
+  .teacher-text{
+    background-color: #e9e9e9;
+    text-align: center;
+    top: 9%;
+    right: 10%;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
+    box-shadow: -1px 3px 7px 1px  #d4d4d4;
+  }
+  .teacher-text span{
+    color: orange;
+  }
+  .teacher-text a{
+    border: orange 1px solid;
+    text-align: center;
+    padding: 0px 10px;
+    float: right;
+    border-radius: 0 5px 0 5px;
+    color:#616161;
+    transition: 0.5s ease-in;
+  }
+  .teacher-text a:hover{
+    background-color: orange;
+  }
+  @media screen and (max-width:768px){
+    .teacher-text{
+      top:4%;
+      font-size: 15px;
+    }
+  }
+  /* <!-- teacher -->
+  <section class="container-fluid teacher-wrapper mt-20">
+      <div class="row">
+          <div class="col-es-12 col-s-12 col-md-12 col-l-12 col-xl-12 relative">
+              <img class="img-responsive" src="./img/teacher.png">
+              <div class="teacher-text absolute">
+                  <h1>مدرسین سیسیتم آموزشی <span>نوین</span></h1>
+                  <a href=""> بیشتر...</a>
+              </div>
+          </div>
+      </div>
+  </section> */

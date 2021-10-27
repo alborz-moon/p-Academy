@@ -1,0 +1,58 @@
+:root{
+    --hovercolor:rgb(255, 165, 0);
+    --linecolor: #041121;;
+  }
+  .fristline-color{
+    background-color:var(--linecolor);
+    color: #fff;
+  }
+  .contact{
+    font-size: 13px;
+  }
+  .contact i{
+    color:var(--hovercolor);
+    vertical-align: -11px;
+    margin-right: 10px;
+  }
+  .contact i span{
+    color: #FFF;
+    vertical-align: 2px;
+    margin: 5px ;
+  }
+  .container-fluid{
+    height: 40px;
+  }
+  .social-media{
+    direction: ltr;
+  }
+  .social-media a i{
+    margin: -10px;
+    margin-right: 4px;
+    padding: 12px;
+    vertical-align: -10px;
+  }
+  .social-media a{
+    text-decoration: none;
+    color: #fff;
+
+  }
+  .social-media a :hover{
+    background-color: var(--hovercolor);
+  }
+  /* <div class="container-fluid fristline-color">
+  <div class="row">
+      <div class="container">
+          <div class="col-es-6 col-s-6 col-md-6 col-l-6 col-xl-6 contact">
+              <a class="es-hidden"><i class="far fa-envelope "><span > alborzmoon@gmail.com</span></i></a> <i class="fas fa-phone"><span>09105559653</span> </i>
+          </div>
+          <div class="col-es-6 col-s-6 col-md-6 col-l-6 col-xl-6 social-media">
+             <a href=""> <i class="fab fa-telegram-plane"></i></a>
+             <a href=""><i class="fab fa-instagram"></i></a>
+             <a href="" class=""><i class="fab fa-facebook"></i></a>
+             <a href="" class=""><i class="fab fa-twitter"></i></a>
+             <a href=""><i class="fas fa-rss"></i></a>
+          </div>
+      </div>
+  </div>
+</div> */
+  

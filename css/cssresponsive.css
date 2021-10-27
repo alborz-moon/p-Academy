@@ -1,0 +1,409 @@
+/* برای دیواس های اکیترا اسمال */
+@media only screen and (max-width:579px) {
+    .hidden-es {
+        display:none;
+      }
+    .col-es-1{
+        width: 8.33%;
+    }
+    .col-es-2{
+        width: 16.66%;
+    }    
+    .col-es-3{
+        width: 24%;
+    }    
+    .col-es-4{
+        width: 33.33%;
+    }    
+    .col-es-5{
+        width: 41.66%;
+    }    
+    .col-es-6{
+        width: 50%;
+    }    
+    .col-es-7{
+        width: 58.33%;
+    }    
+    .col-es-8{
+        width: 66.66%;
+    }    
+    .col-es-9{
+        width: 75%;
+    }    
+    .col-es-10{
+        width: 83.33%;
+    }    
+    .col-es-11{
+        width: 91.66%;
+    }
+    .col-es-12{
+        width: 100%;
+    }
+    .col-es-offset-1{
+        margin-right: 8.33%;
+    }
+    .col-es-offset-2{
+        margin-right: 16.66%;
+    }    
+    .col-es-offset-3{
+        margin-right: 24%;
+    }    
+    .col-es-offset-4{
+        margin-right: 33.33%;
+    }    
+    .col-es-offset-5{
+        margin-right: 41.66%;
+    }    
+    .col-es-offset-6{
+        margin-right: 50%;
+    }    
+    .col-es-offset-7{
+        margin-right: 58.33%;
+    }    
+    .col-es-offset-8{
+        margin-right: 66.66%;
+    }    
+    .col-es-offset-9{
+        margin-right: 75%;
+    }    
+    .col-es-offset-10{
+        margin-right: 83.33%;
+    }    
+    .col-es-offset-11{
+        margin-right: 91.66%;
+    }
+    .col-es-offset-12{
+        margin-right: 100%;
+    }
+  }
+  /* برای دیوایس های اسمال */
+  @media only screen and (min-width:579.5px) and (max-width:767.98px)  
+    {
+    .hidden-s{
+        display: none;
+    }
+    .col-s-1{
+        width: 8.33%;
+    }
+    .col-s-2{
+        width: 16.66%;
+    }    
+    .col-s-3{
+        width: 24%;
+    }    
+    .col-s-4{
+        width: 33.33%;
+    }    
+    .col-s-5{
+        width: 41.66%;
+    }    
+    .col-s-6{
+        width: 50%;
+    }    
+    .col-s-7{
+        width: 58.33%;
+    }    
+    .col-s-8{
+        width: 66.66%;
+    }    
+    .col-s-9{
+        width: 75%;
+    }    
+    .col-s-10{
+        width: 83.33%;
+    }    
+    .col-s-11{
+        width: 91.66%;
+    }
+    .col-s-12{
+        width: 100%;
+    }
+    .col-s-offset-1{
+        margin-right: 8.33%;
+    }
+    .col-s-offset-2{
+        margin-right: 16.66%;
+    }    
+    .col-s-offset-3{
+        margin-right: 24%;
+    }    
+    .col-s-offset-4{
+        margin-right: 33.33%;
+    }    
+    .col-s-offset-5{
+        margin-right: 41.66%;
+    }    
+    .col-s-offset-6{
+        margin-right: 50%;
+    }    
+    .col-s-offset-7{
+        margin-right: 58.33%;
+    }    
+    .col-s-offset-8{
+        margin-right: 66.66%;
+    }    
+    .col-s-offset-9{
+        margin-right: 75%;
+    }    
+    .col-s-offset-10{
+        margin-right: 83.33%;
+    }    
+    .col-s-offset-11{
+        margin-right: 91.66%;
+    }
+    .col-s-offset-12{
+        margin-right: 100%;
+    }
+  }
+        /* برای دیوایس های مدیوم */
+  @media only screen and (min-width:768px) and (max-width:991.98px){
+    .hidden-md{
+        display:none;
+    }
+    .col-md-1{
+        width: 8.33%;
+    }
+    .col-md-2{
+        width: 16.66%;
+    }    
+    .col-md-3{
+        width: 24%;
+    }    
+    .col-md-4{
+        width: 33.33%;
+    }    
+    .col-md-5{
+        width: 41.66%;
+    }    
+    .col-md-6{
+        width: 50%;
+    }    
+    .col-md-7{
+        width: 58.33%;
+    }    
+    .col-md-8{
+        width: 66.66%;
+    }    
+    .col-md-9{
+        width: 75%;
+    }    
+    .col-md-10{
+        width: 83.33%;
+    }    
+    .col-md-11{
+        width: 91.66%;
+    }
+    .col-md-12{
+        width: 100%;
+    }
+    .col-md-offset-1{
+        margin-right: 8.33%;
+    }
+    .col-md-offset-2{
+        margin-right: 16.66%;
+    }    
+    .col-md-offset-3{
+        margin-right: 24%;
+    }    
+    .col-md-offset-4{
+        margin-right: 33.33%;
+    }    
+    .col-md-offset-5{
+        margin-right: 41.66%;
+    }    
+    .col-md-offset-6{
+        margin-right: 50%;
+    }    
+    .col-md-offset-7{
+        margin-right: 58.33%;
+    }    
+    .col-md-offset-8{
+        margin-right: 66.66%;
+    }    
+    .col-md-offset-9{
+        margin-right: 75%;
+    }    
+    .col-md-offset-10{
+        margin-right: 83.33%;
+    }    
+    .col-md-offset-11{
+        margin-right: 91.66%;
+    }
+    .col-md-offset-12{
+        margin-right: 100%;
+    }
+  }
+  
+    /* برای دیوایس های لارژ */
+  @media only screen and (min-width:990.1px) and (max-width: 1200px){
+    .hidden-l{
+        display: none;
+    }
+    .col-l-1{
+        width:8.33%;
+       }
+    .col-l-2{
+        width:16.66%;
+    }
+    .col-l-3{
+         width:24%;
+    }
+    .col-l-4{
+        width:33.33%;
+    }
+    .col-l-5{
+        width:41.66%;
+    }
+    .col-l-6{
+        width:50%;
+    }
+    .col-l-7{
+        width:58.33%;
+    }
+    .col-l-8{
+        width:66.66%;
+    }
+    .col-l-9{
+        width:75%;
+    }
+    .col-l-10{
+        width:83.33%;
+    }
+    .col-l-11{
+        width:91.66%;
+    }
+    .col-l-12{
+        width:100%;
+    }
+    .col-l-offset-1{
+        margin-right: 8.33%;
+    }
+    .col-l-offset-2{
+        margin-right: 16.66%;
+    }    
+    .col-l-offset-3{
+        margin-right: 24%;
+    }    
+    .col-l-offset-4{
+        margin-right: 33.33%;
+    }    
+    .col-l-offset-5{
+        margin-right: 41.66%;
+    }    
+    .col-l-offset-6{
+        margin-right: 50%;
+    }    
+    .col-l-offset-7{
+        margin-right: 58.33%;
+    }    
+    .col-l-offset-8{
+        margin-right: 66.66%;
+    }    
+    .col-l-offset-9{
+        margin-right: 75%;
+    }    
+    .col-l-offset-10{
+        margin-right: 83.33%;
+    }    
+    .col-l-offset-11{
+        margin-right: 91.66%;
+    }
+    .col-l-offset-12{
+        margin-right: 100%;
+    }
+  }
+  /* یرای دیوایس های اکسترا لارژ */
+  @media screen and (min-width:1200px){     
+    .hidden-xl{
+        display: none;
+    }
+    .col-xl-1{
+        width: 8.33%;
+    }
+    .col-xl-2{
+        width: 16.66%;
+    }    
+    .col-xl-3{
+        width: 24%;
+    }    
+    .col-xl-4{
+        width: 33.33%;
+    }    
+    .col-xl-5{
+        width: 41.66%;
+    }    
+    .col-xl-6{
+        width: 50%;
+    }    
+    .col-xl-7{
+        width: 58.33%;
+    }    
+    .col-xl-8{
+        width: 66.66%;
+    }    
+    .col-xl-9{
+        width: 75%;
+    }    
+    .col-xl-10{
+        width: 83.33%;
+    }    
+    .col-xl-11{
+        width: 91.66%;
+    }
+    .col-xl-12{
+        width: 100%;
+    }
+    .col-xl-offset-1{
+        margin-right: 8.33%;
+    }
+    .col-xl-offset-2{
+        margin-right: 16.66%;
+    }    
+    .col-xl-offset-3{
+        margin-right: 24%;
+    }    
+    .col-xl-offset-4{
+        margin-right: 33.33%;
+    }    
+    .col-xl-offset-5{
+        margin-right: 41.66%;
+    }    
+    .col-xl-offset-6{
+        margin-right: 50%;
+    }    
+    .col-xl-offset-7{
+        margin-right: 58.33%;
+    }    
+    .col-xl-offset-8{
+        margin-right: 66.66%;
+    }    
+    .col-xl-offset-9{
+        margin-right: 75%;
+    }    
+    .col-xl-offset-10{
+        margin-right: 83.33%;
+    }    
+    .col-xl-offset-11{
+        margin-right: 91.66%;
+    }
+    .col-xl-offset-12{
+        margin-right: 100%;
+    }
+  }
+  .container{
+    clear: both;
+    max-width:1200px;
+    margin: 0 auto;
+  }
+  .row::after{
+    content: '';
+    display: table;
+    clear: both;
+  }
+  [class^="col"]{
+    float: right;
+    padding: 0px 15px;
+  }
+  .container-fluid{
+    width: 100%;
+  }

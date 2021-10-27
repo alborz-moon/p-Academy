@@ -1,0 +1,114 @@
+.about-us span{
+    position: relative;
+    font-size: 20px; 
+  }
+  .about-us h5 span::before{
+    content: '';
+    width: 40px;
+    height: 3px;
+    position: absolute;
+    background-color: orange;  
+    top: 16px;
+    left: 55px;
+  }
+  .about-us h5 span::after{
+    content: '';
+    width: 40px;
+    height: 3px;
+    position: absolute;
+    background-color: orange;
+    top: 16px;
+    left: -47px;
+  }
+  .about-us-left{
+    background-color: #ffffff;
+    min-height: 250px;
+    padding: 70px 40px 0px 40px;
+  }
+  .about-us-left h4{
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    font-size: 20px;
+  }
+  .about-us-left p{
+    padding: 10px;
+    font-size: 16px;
+    line-height: 23px;
+    text-indent: 30px;
+    text-justify:auto;
+    text-overflow: ellipsis;
+    text-align: justify;
+    color: rgb(39, 39, 39);
+  }
+  .about-us-right{
+    padding: 0px 40px 0px 40px;
+  }
+  .about-us-left a {
+    color: #FFF;
+    background-color: orange;
+    padding: 5px;
+    border-radius: 0px 10px 0px 10px;
+    float: left;
+    transition: 0.5 ease-in;
+  }
+  .about-us-left a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(180, 117, 0);
+  }
+  @media screen and (max-width:768px) {
+    .about-us-img{
+      display: none;
+    }
+    .about-us-left{
+      margin-top: -50px;
+    }
+    .about-us-left h4{
+      display: none;
+    }  
+    .about-us-left a{
+      margin-bottom: 10px;
+    }
+    .about-us-left p{
+      margin-top: -50px;
+    }
+  }
+  @media screen and (min-width:768.5px) and (max-width:951px){
+    .about-us-left{
+      margin-top: -60px;
+      margin-right: 10px;
+      margin-left: -10px;
+    }  
+    .about-us-right{
+      padding: 20px;
+    }
+    .about-us-left p{
+      font-size: 14px;
+    }
+  }
+  @media screen and (min-width:951px) and (max-width:1061px){
+    .about-us-left{
+      margin-top: -40px;
+    }  
+    .about-us-right{
+      padding: 20px;
+    }
+  }
+  /* <section>
+        <div class="container">
+            <div class="row">
+                <div class="about-us text-center p-20">
+                    <h5>
+                        <span>درباره ما</span>
+                    </h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-es-12 col-s-12 col-md-6 col-l-6 col-xl-6 about-us-right"><div class="text-center m-20"><img class="img-responsive about-us-img " src="./img/aboutusedi.png" alt=""></div></div>
+        <div class="col-es-12 col-s-12 col-md-6 col-l-6 col-xl-6 about-us-left">
+            <h4>درباره ما</h4>
+            <p> تکنولوژی به عنوان عامل خلق ثروت توجه می‌شود. در تعریفی دیگر مدیریت تکنولوژی به مفهوم مدیریت سیستم‌هایی است که به ایجاد، کسب و استفاده از تکنولوژی کمک می‌کنند.
+
+                رشته مدیریت تکنولوژی برای اولین بار در سال ۱۹۸۱ توسط انستیتو تکنولوژی ماساچوست (MIT)اقدام به ایجاد دوره‌های آموزشی متنوعی در مقاطع مختلف تحصیلی، شامل دوره‌های کوتاه‌مدت چندروزه تا دوره‌های دکترای تخصصی نموده‌اند . </p>
+                <a href="">ادامه مطالب</a>
+        </div>
+    </section> */

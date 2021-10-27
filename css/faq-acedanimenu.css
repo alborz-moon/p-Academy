@@ -1,0 +1,141 @@
+.faq-wrapper{
+    background-image: url(../img/409146_Geometric_triangle_pattern_illustration2.jpg);
+    background-size:contain;
+    min-height: 500px;
+  }
+  .faq-right{
+    box-shadow: 1px 5px 15px 2px rgb(43, 43, 43);
+    height: 300px;
+    background-color: #efefef;
+    padding: 50px;
+    margin-top:80px;
+  }
+  .faq-right h6{
+    font-size: 16px;
+  }
+  .faq-right h6 i{
+    font-size: 32px;
+    margin-left: 16px;
+    vertical-align: -5px;
+    color:rgb(72, 72, 255);
+  }
+  .faq-right p{
+    color: #a8a8a8;
+    margin: 10px 47px 0px 0px;
+    font-size:14px;
+  }
+  .faq-left{
+    box-shadow: 1px 5px 15px 2px rgb(43, 43, 43);
+    height: 300px;
+    background-color: #efefef;
+    margin-top:80px;
+  }
+  .faq-left .tabs{
+    /* border-radius: 5px; */
+    overflow: hidden;
+    box-shadow: 0 4px 4px -2px rgba(rgba(26, 26, 26, 0.486));
+  }
+  .faq-left .tab{
+    color: #FFFF;
+    overflow: hidden;
+  }
+  .faq-left .tab-label{
+    padding: 12px;
+    background-color: rgb(72, 72, 255);
+    width: 100%;
+    cursor: pointer;
+    display: block;
+    transition: .7s;
+  }
+  .faq-left .tab-label:hover{
+   background-color: rgb(51, 51, 216);
+  }
+  .faq-left .tab-label::after{
+    content: '\276f';
+    text-align: center;
+    transition: 0.4s;
+    float: left;
+    padding-top: 2px;
+  }
+  .faq-left .tab .tab-content{
+    height: 0;
+    transition: .7s;
+    padding: 0px 19px 0 0;
+    vertical-align: -10px;
+  }
+  .faq-left input:checked ~ .tab-content{
+    min-height: 40px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(85, 85, 85);
+    padding-top: 5px;
+  }
+  .faq-left input:checked + .tab-label::after{
+    transform: rotate(-90deg);
+  }
+  .faq-left .tab input{
+    display: none;
+  }
+  @media screen and (max-width:768px) {
+      .faq-right{
+          margin-top: 20px;
+      }
+      .faq-left{
+        margin-top: 20px;
+    }
+    section .faq-wrapper{
+        margin-top: -60px;
+    }
+  }
+  /* <!-- faq -->
+  <section>
+      <div class="container-fluid faq-wrapper">
+          <div class="l-matlab text-center mt-20 p-10">
+              <h5>
+                  <span>سولات متداول</span>
+              </h5>
+          </div>
+          <div class="container">
+              <div class="row">
+                  <div class="col-es-12 col-s-12 col-md-6 col-l-6 col-xl-6">
+                      <div class="faq-right">
+                          <ul>
+                              <li class="mb-20">
+                                  <h6><i class="fas fa-headset"></i>پشتیبانی 24 ساعته</h6>
+                                  <p>پشتیباتی 24 ساعاته در تمام ایام هفته</p>
+                              </li>
+                              <li class="mb-20">
+                                  <h6><i class="fal fa-badge-check"></i>خدمات و پاسخگویی</h6>
+                                  <p>به مدت 12 ماه ار تمامی خدمات بهره مند می شوید</p>
+                              </li>
+                              <li class="mb-20">
+                                  <h6><i class="far fa-question-circle"></i>سوالات متداول</h6>
+                                  <p>پاسخگویی به سوالات توسط اساتید مجرب</p>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col-es-12 col-s-12 col-md-6 col-l-6 col-xl-6">
+                      <div class="faq-left">
+                          <div class="tabs">
+                              <div class="tab">
+                                  <input type="checkbox" id="checkbox1">
+                                  <label class="tab-label" for="checkbox1">پشتیبانی</label>
+                                  <div class="tab-content">پشتیباتی 24 ساعاته در تمام ایام هفته</div>
+                              </div>
+                              <div class="tab">
+                                  <input type="checkbox" id="checkbox2">
+                                  <label class="tab-label" for="checkbox2">خدمات و پاسخگویی</label>
+                                  <div class="tab-content">به مدت 12 ماه ار تمامی خدمات بهره مند می شوید</div>
+                              </div>
+                              <div class="tab">
+                                  <input type="checkbox" id="checkbox3">
+                                  <label class="tab-label" for="checkbox3">سوالات متداول</label>
+                                  <div class="tab-content">پاسخگویی به سوالات توسط اساتید مجرب</div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section> */
